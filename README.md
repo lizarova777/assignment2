@@ -1,16 +1,15 @@
-# Assignment 2
-### Social Network Analysis
+# Social Network Analysis
 
-In Assignment 2 we will be looking at some disciplinary data from a middle school. The file "discipline-data.csv" shows which teacher sent which student to the principal during the semester.
+## Project Objectives:
 
-We will be using the "igraph" package to visualize the disciplinary relationships between teachers and students as a network. You can read more about igraph here:
+The purpose of PART I and Part II of this project is to look at some disciplinary data from a middle school. The file "discipline-data.csv" shows which teacher sent which student to the principal during the semester. The "igraph" package is used to visualize the disciplinary relationships between teachers and students as a network. You can read more about igraph here:
 
 http://igraph.org/r/
 
-The instructions to Assignment 2 are in the Assignment 2.rmd file. Assignments are structured in three parts, in the first part you can just follow along with the code, in the second part you will need to apply the code and in the third part is completely freestyle, apply your new knowledge in a new way. 
+The social network diagram (sociogram) is shown below for Part II:
+![graph](https://github.com/lizarova777/assignment2/blob/master/PartII_Graph.png)
 
-**Please complete as much as you can by 5:00pm, 10/25/18**
+The purpose of Part III of the project is to visualize the social network of a graduate course in Data Mining based on the classes the students are taking. Then, the centrality measures such as degree and betweeness are analyzed. Afterwards, K-Modes cluster analysis is perfomed based on the classes the students are taking.
 
-Once you have finished, commit, push and pull your assignment back to the main branch.
 
-Good luck!
+
