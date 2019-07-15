@@ -188,7 +188,7 @@ degree(sn)  #degree
 betweenness(sn) #betweenness centrality
 ```
 ```{r}
-#According to the degree metric, Xixuan Zhao has the greatest number of links to other individuals or nodes in the class network. Likewise, Xixuan Zhao has the greatest betweenness centrality, Thus, Xixuan is the most central person in the network. As in, she shares the most amount of classes with other students. 
+#According to the degree metric, Xixuan Zhao has the greatest number of links to other individuals or nodes in the class network. Likewise, Xixuan Zhao has the greatest betweenness centrality, Thus, Xixuan is the most central person in the network. As in, she shares many classes with many other students.This means that her educational goals intersect with those of many other students in the class. Since she has the greatest betweeness centrality, this indicates that she shares at least one other class, other than HUDK 4050, with most of her classmates. In other words, many students of this class can expect to share at least one other class with Xixuan.
 ```
 
 ### K-Modes Cluster Analysis
