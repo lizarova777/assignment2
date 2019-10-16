@@ -183,12 +183,14 @@ plot(sn, layout=layout.fruchterman.reingold, vertex.size=5 )
 ```{r}
 # Centrality
 degree(sn)  #degree
+which.max(degree(sn)) # person with the highest degree
 ```
 ```{r}
 betweenness(sn) #betweenness centrality
+which.max(betweenness(sn)) # person with the highest betweenness
 ```
 ```{r}
-#According to the degree metric, Xixuan Zhao has the greatest number of links to other individuals or nodes in the class network. Likewise, Xixuan Zhao has the greatest betweenness centrality, Thus, Xixuan is the most central person in the network. As in, she shares many classes with many other students.This means that her educational goals intersect with those of many other students in the class. Since she has the greatest betweeness centrality, this indicates that she shares at least one other class, other than HUDK 4050, with most of her classmates. In other words, many students of this class can expect to share at least one other class with Xixuan.
+#According to the degree metric, Xixuan Zhao has the greatest number of links to other individuals or nodes in the class network. Thus, Xixuan is the most central person in the network. As in, she shares many classes with many other students.This means that her educational goals intersect with those of many other students in the class. Elliot has the highest betweenness value. Since he has the greatest betweeness centrality, this indicates that he shares at least one other class, other than HUDK 4050, with all of his classmates. In other words, many students of this class can expect to share at least one other class with Elliot.
 ```
 
 ### K-Modes Cluster Analysis
